@@ -398,3 +398,8 @@
   398  nano accept.txt; ls > accept.txt; history | grep ls >> accept.txt
   399  touch accept.txt; ls > accept.txt; history | grep ls >> accept.txt
   400  history >> pregunta5.sh
+  401  git add pregunta5.sh
+  402  git commit -m "Agregamos el ultimo file para el examen"
+  403  git push
+  404  ls
+  405  history > pregunta5.sh
